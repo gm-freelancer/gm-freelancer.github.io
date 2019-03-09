@@ -1,0 +1,293 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>GM - Freelancer Web Developer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/custom-style.css">
+  
+
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+
+
+
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">GM</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="button15" href="#about">ABOUT</a></li>
+        <li><a class="button15" href="#services">SERVICES</a></li>
+        <li><a class="button15" href="#portfolio" style="border: none;">PORTFOLIO</a></li>
+        <li><a class="button15" href="#pricing" style="border: none;">PRICING</a></li>
+        <li><a class="button15" href="#contact" style="border: none;">CONTACT</a></li>
+        <li><a class="button15" href="blog.html">BLOG</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center" style="margin-bottom: 0px;">
+  <h1>BLOG - HTML5 Language</h1> 
+  <a href="index.html">Back to the website</a>
+</div>
+
+
+<!-- Blog section (programmes) -->
+
+<div class="container-fluid">
+    <div class="row coding-paragraph">
+      <div class="col-sm-7">
+        <h2>Document Summary</h2>
+          <xmp class="xmpp"><html>....</html></xmp>
+          <p>The tag shows up at the beginning and ending of an HTML document (known as the root element). It indicates that the webpage is written in HTML5, and all other page markup comes in between these beginning and ending tags.</p>
+
+          <xmp class="xmpp"><head>....</head></xmp>
+          <p>It contains information that specific page, including the title tags, meta data , and links to scripts and style sheets.</p>
+
+          <xmp class="xmpp"><title>....</title></xmp>
+          <p>The tag is the title of that page, useful for both search engines (when they can scan and index pages) and users (showing up in a browser's title bar) by explicitly stating the primary topic of each page.</p>
+
+          <xmp class="xmpp"><body>....</body></xmp>
+          <p>Body tags include all content that will be shown to users including everything they'll see and read.</p>
+        </div>
+        <div class="col-sm-5 coding">
+          <h3>Example:</h3>
+<xmp>
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title>My first website</title>
+    </head>
+  <body>
+
+  </body>
+  </html>
+</xmp>
+        </div>
+      </div>
+
+<hr style="margin-top: 3rem; border: 1px solid #e55d87; border-radius: 50%;">
+
+      <div class="row coding-paragraph">
+      <div class="col-sm-7">
+        <h2>Document Information</h2>
+          <xmp class="xmpp"><base href=""></xmp>
+          <p>The base URL (for example: www.facebook.com) is useful for specifying all relative links in a document (especially if you have many internal links).</p>
+
+          <xmp class="xmpp"><meta charset="utf-8"></xmp>
+          <p>Meta data spells out traditional information about the page, including the page description, author, published date, keywords, and other typically "hidden" page information.</p>
+
+          <xmp class="xmpp"><link rel="stylesheet" type="text/css" href=""></xmp>
+          <p>This tag is used to create relationships with external paged or documents, including style sheets.</p>
+
+          <xmp class="xmpp"><style type="text/css">....</style></xmp>
+          <p>This element includes document style information, typically defaulting CSS.</p>
+
+          <xmp class="xmpp"><script type="text/javascript">....</script></xmp>
+          <p>This element includes all scripting information, or links to external scripts. You can also include this element in the body ty dynamically generate content.</p>
+
+        </div>
+        <div class="col-sm-5 coding">
+          <h3>Example:</h3>
+<xmp>
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <base href="http://www.facebook.com" target="_blank">
+    <title>My first Website</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript">
+      var myVar = 0;
+    </script>
+  </head>
+  <body>
+
+  </body>
+  </html>
+</xmp>
+        </div>
+      </div>
+
+<hr style="margin-top: 3rem; border: 1px solid #e55d87; border-radius: 50%;">
+
+      <div class="row coding-paragraph">
+      <div class="col-sm-7">
+        <h2>DOCUMENT STRUCTURE</h2>
+
+        <xmp class="xmpp"><h1>...</h1>
+<h2>...</h2>
+.
+.
+.
+<h6>...</h6></xmp>
+        <p>All six tags of Headings, with 1 being most important on a page and 6 being the last. These elements are used to describe content sections on a page.</p>
+
+        <xmp class="xmpp"><div>...</div></xmp>
+        <p>A generic container used to denote a page section. This tag is often used to stylize other HTML elements with CSS or to perform certain tasks with JavaScript.</p>
+
+        <xmp class="xmpp"><span>...</span></xmp>
+        <p>An inline section or block container, typically used for grouping styling elements.</p>
+
+        <xmp class="xmpp"><p>...</p></xmp>
+        <p>This tag is used to organize paragraphs of text.</p>
+
+        <xmp class="xmpp"><br></xmp>
+        <p>Creates a line break (or old-schools carriage-return), useful for writing blocks of text that need to be on different lines (think addresses, etc.)</p>
+
+        <xmp class="xmpp"><hr></xmp>
+        <p>Creates a horizontal rule, a sectional break in an HTML page. Typically used to denote a change in topic or section of a page.</p>
+
+        </div>
+        <div class="col-sm-5 coding">
+          <h3>Example:</h3>
+<xmp>
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <title>My first website</title>
+  </head>
+  <body>
+    <div>
+      <h1>This is my first web page.</h1>
+      <p>I used a DIV tag, a PARAGRAPH tag, <span>a SPAN tag</span> , <br> a BR tag and a HR tag </p>
+
+      <hr>
+
+      <h2>I just used a HR tag.</h2>
+      <p>The HR tag creates a line between the paragraphs.</p>
+    </div>
+  </body>
+  </html>
+</xmp>
+        </div>
+      </div>
+<!-- main div -->
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="text-center">
+      <ul class="pagination">
+        <li><a href="blog">1</a></li>
+        <li><a href="blog2">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Container (Pricing Section) -->
+<div class="container-fluid" style="padding: 0px 10rem 0 10rem;">
+  <div class="text-center" style="padding: 0px; border-top: 2px solid #e55d87;">
+      <a href="facebook.com/ghulam.mustafa8922" target="_blank"><i class="fa fa-facebook-square"></i></a>
+      <a href="https://api.whatsapp.com/send?phone=03475478922" target="_blank"><i class="fa fa-whatsapp"></i></a>
+      <a href="https://www.instagram.com/ghulam.mustafa_gm/" target="_blank"><i class="fa fa-instagram"></i></a>
+      <a href="https://twitter.com/GM_Gaming786/" target="_blank"><i class="fa fa-twitter-square"></i></a>
+      <a href="https://www.youtube.com/channel/UC7OZeiuBcNrZEZ1BWjVtz2w" target="_blank"><i class="fa fa-youtube-square"></i></a>
+      <a href="https://www.linkedin.com/in/ghulam-mustafa-tariq-24822014b/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+      <a href="https://www.pinterest.com/ghulammustafata/" target="_blank"><i class="fa fa-pinterest-square"></i></a>
+      <a href="https://bitbucket.org/account/user/gm-gaming786/" target="_blank"><i class="fa fa-bitbucket-square"></i></a>
+      <i style="color: #e78faa;" class="fa fa-github-square"></i>
+      <i style="color: #e78faa;" class="fa fa-tumblr-square"></i>
+      <i style="color: #e78faa;" class="fa fa-twitch"></i>
+  </div>
+</div>
+
+<footer class="container-fluid text-center cus-back" style="padding-top: 15px; padding-bottom: 0px; text-transform: uppercase;">
+  <p>Made with <span class="glyphicon glyphicon-heart heart" style="font-size: 15px;"></span> by <a href="https://api.whatsapp.com/send?phone=03475478922">Ghulam Mustafa Tariq&copy;</a></p>
+</footer>
+
+<script>
+
+  function myFunction() {
+    // Get the snackbar DIV
+    var x = document.getElementById("snackbar");
+
+    // Add the "show" class to DIV
+    x.className = "show";
+
+    // After 3 seconds, remove the show class from DIV
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 5000);
+} 
+
+$(".bar").each(function(){
+  $(this).find(".bar-inner").animate({
+    width: $(this).attr("data-width")
+  },2000)
+});
+
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+
+<script>
+$(document).ready(function() {
+//Preloader
+$(window).on("load", function() {
+preloaderFadeOutTime = 500;
+function hidePreloader() {
+var preloader = $('.spinner-wrapper');
+preloader.fadeOut(preloaderFadeOutTime);
+}
+hidePreloader();
+});
+});
+</script>
+
+
+</body>
+</html>

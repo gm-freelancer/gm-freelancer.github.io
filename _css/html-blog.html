@@ -1,0 +1,542 @@
+
+
+<ul class="breadcrumb">
+  <li><a href="summary.html">Structure</a></li>
+  <li><a href="information.html">Document Information</a></li>
+  <li><a href="structure.html">Document Structure</a></li>
+  <li><a href="text-formating.html">Text & Formating</a></li>
+  <li><a href="links.html">Links</a></li>
+  <li><a href="image.html">Images & Formating</a></li>
+  <li>Lists & Formating</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+DOCUMENT SUMMARY
+
+<xmp><html>....</html></xmp>
+The tag shows up at the beginning and ending of an HTML document (known as the root element). It indicates that the webpage is written in HTML5, and all other page markup comes in between these beginning and ending tags.
+
+<xmp><head>....</head></xmp>
+It contains information that specific page, including the title tags, meta data , and links to scripts and style sheets.
+
+<xmp><title>....</title></xmp>
+The tag is the title of that page, useful for both search engines (when they can scan and index pages) and users (showing up in a browser's title bar) by explicitly stating the primary topic of each page.
+
+<xmp><body>....</body></xmp>
+Body tags include all content that will be shown to users including everything they'll see and read.
+
+Example:
+<xmp>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My first website</title>
+</head>
+<body>
+
+</body>
+</html>
+</xmp>
+
+
+
+
+DOCUMENT INFORMATION
+<base href="">
+The base URL (for example: www.facebook.com) is useful for specifying all relative links in a document (especially if you have many internal links).
+
+<meta charset="utf-8">
+Meta data spells out traditional information about the page, including the page discription, author, published date, keywords, and other typically "hidden" page information.
+
+<link rel="stylesheet" type="text/css" href="">
+This tag is used to creat relationships with external paged or documents, including style sheets.
+
+<style type="text/css">....</style>
+This element includes document style information, typicaly defaulting CSS.
+
+<script type="text/javascript">....</script>
+This element includes all scripting information, or links to external scripts. You can also include this element in the body ty dynamically generate content.
+
+EXAMPLE:
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<base href="http://www.facebook.com" target="_blank">
+	<title>My first Website</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript">
+		var myVar = 0;
+	</script>
+</head>
+<body>
+
+</body>
+</html>
+
+
+DOCUMENT STRUCTURE
+
+<h1>...</h1>
+<h2>...</h2>
+.
+.
+.
+<h6>...</h6>
+
+All six tags of Headings, with 1 being most important on a page and 6 being the last. These elements are used to describe content sections on a page.
+
+<div>...</div>
+A generic container used to denote a page section. This tag is often used to stylize other HTML elements with CSS or to perform certain tasks with JavaScript.
+
+<span>...</span>
+An inline section or block container, typically used for grouping styling elements.
+
+<p>...</p>
+This tag is used to organize paragraphs of text.
+
+<br>
+Creats a line break (or old-schools carriage-return), useful for writing blocks of text that need to be on diffrent lines (think addresses, etc.)
+
+<hr>
+Creates a horizontal rule, a sectional break in an HTML page. Typically used to denote a change in topic or section of a page.
+
+EXAMPLE:
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My first website</title>
+</head>
+<body>
+
+<div>
+	<h1>This is my first web page.</h1>
+	<p>I used a DIV tag, a PARAGRAPH tag, <span>a SPAN tag</span> , <br> a br tag and a HR tag </p>
+
+	<hr>
+
+	<h2>I just used a HR tag.</h2>
+	<p>The HR tag creats a line between the paragraphs.</p>
+</div>
+</body>
+</html>
+
+
+
+TEXT (+FORMATING)
+<strong>....</strong>
+Exactly like it sounds, indicatong STRONG emphasis, displayed bold in most browsers.
+
+<b>....</b>
+Another way to create bold text, however it's more for drawing attention as opposed to emphasizing extra emphasis like the previous tag.
+
+<em>....</em>
+The emphasis tags also are like the sound, emphasizing text or phrases displayed as italics in most browsers.
+
+<i>...</i>
+Another way to add italics to text, however without the added emphases(similar to the bold tags above) and instead used to denote things like thoughts or names.
+
+<tt>...</tt>
+An older tag used to display fixed-wisth, typewriter-esquetext. No longer supported in HTML5.
+
+<strike>...</strike>
+This tag creates strike through text (or text with a line through it). Another tag that is not supported in HTML5.
+
+<cite>...</cite>
+This tag is used to cite or reference information, useful for quotes and statements in a document.
+
+<pre>...</pre>
+Pre-formated, "monospace" text laid out with white space inside the element infact. Basically used to show code on the document.
+
+<del>....</del>
+Helps to denote a previously deleted section of text.
+
+<ins>....</ins>
+Represents a section of text that's beeen inserted into the document.
+
+<blockquote>......</blockquote>
+Reserved for long paragraphs of quotations, often cited.
+
+<q>....</q>
+These are used for shorter quotes.
+
+<abbr>.....</abbr>
+Abbreviation these help to denote abbriviations, while also making the full form available.
+
+<acronym>....</acronym>
+Another tag for abbriviation but it is no onger supported in HTML5.
+
+<dfn>....</dfn>
+Definition used to create an inline definition in the body text.
+
+<code>......</code>
+Code text Displays code snippets (like the one over to the left), typically showing up monospaced. Also used to display the code.
+
+<sub>....</sub>
+Subscript text a helpful way to subscript text (shrinking it and placing it a half line lower thar thr prevoius text).
+
+<sup>......</sup>
+Superscript text smililar to the previous subscript, however this time placing it a half line heigher than tha previous text.
+
+<small>......</small>
+Small size text Historically used to simply reduce text size, in HTML5 it also refers to information that may no longer br valid, accurate or relevant.
+
+<bdo>....</bdo>
+The bi-directional override tag will identify which text should be read opposite from the preceeding text.
+
+
+EXAMPLE:
+
+<p>Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit,</strong> sed do eiusmod tempor incididunt ut <em>labore et dolore magna aliqua</em>. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+<blockquote>
+	Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+	<cite>- Dr XYZ</cite>
+</blockquote>
+
+<pre>
+	#include<iostream>
+	using namespace std;
+	int main(){
+		cout<<"hello World";
+	}
+</pre>
+
+<code>
+	#include<iostream>
+	using namespace std;
+	int main(){
+		cout<<"hello World";
+	}
+</code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LINKS(+FORMATING)
+<a href="">...</a>
+Anchor tag for hyperlink.
+
+<a name="name">...</a>
+An anchor tag that is useful for bringing the user to a specific document element.
+
+<a href="#name">...</a>
+An anchor link that brings users specifically to a div element.
+
+<a href="" target="">...</a>
+An anchor tag that sets the designation of the link that is being click.<br>
+target="" takes the following values:
+_blank	Opens the linked document in a new window or tab
+_self	Opens the linked document in the same frame as it was clicked (this is default)
+_parent	Opens the linked document in the parent frame
+_top	Opens the linked document in the full body of the window
+framename	Opens the linked document in a named frame
+
+<a href="" download></a>
+Directs the browser to download the linked resource rather than opening it.
+
+EXAMPLE:
+<a href="gm-freelancer.github.io" target="_blank">Facebook</a>
+
+<a href="/wp-content/uploads/flamingo.jpg" download> Download this picture</a>
+
+
+IMAGES (+FORMATING)
+<img>
+An image tag to include and display image files.
+
+It can contains the following attributes.
+
+src="url"
+The url or file of the image to display.
+
+alt="text"
+Alternative text that helps explain the image content to both text engines and users.
+
+height=""
+It specifies the image height in pixels or percentages.
+
+width=""
+It specify the width of the image in pixels or percentages.
+
+
+
+LISTS (+FORMATING)
+<ol>...</ol>
+Create numberes (ordered) lists showing sequential order preference or priority.
+
+<ul>...</ul>
+Display a bulleted (unordered) list without any extra emphasis on order of importance.
+
+<li>...</li>
+Specifies each list item to be bulleted or numbered.
+
+<dl>...</dl>
+Used for definitions for list items sepecifically.
+
+<dt>..</dt>
+The definition of a single term inline with body content.
+
+<dd>...</dd>
+The discription for the specified term.
+
+The <dl> tag is used in conjunction with <dt> (defines terms/names) and <dd> (describes each term/name).
+
+
+EXAMPLE:
+
+<ol>
+	<li>January</li>
+	<li>February</li>
+	<li>March</li>
+</ol>
+
+<ul>
+	<li>Pakistan</li>
+	<li>China</li>
+	<li>AJK</li>
+</ul>
+
+<dl>
+	<dt>MUST</dt>
+	<dd>Located in Mirpur AJK</dd>
+	<dt>NUML</dt>
+	<dd>Located in Islamabad</dd>
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
